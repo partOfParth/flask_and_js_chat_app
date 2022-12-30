@@ -1,4 +1,4 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
   <html lang="en">
   <head>
     <title>Flask_Chat_App</title>
@@ -16,10 +16,10 @@
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.1.0/socket.io.min.js" integrity="sha512-5/hKye5yTi+M1RIZSdw1P3jww9mHW0TocDRxN18NXf29TZJiyyRx+zGXKyvXT6QCHiV/9u1p06hHnp4OYedw3Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script type="text/javascript">
       var socket = io.connect('http://' + document.domain + ':' + location.port);
-
+      
       socket.on( 'connect', function() {
         socket.emit( 'my event', {
           data: 'User Connected'
