@@ -3,6 +3,8 @@ use this image ![image](https://user-images.githubusercontent.com/22448776/21005
 and this link https://cdnjs.com/libraries/socket.io/4.1.0 to get the compatible socket.io for your systems engine.io and python-socket.io versions.
 
 The link for the compatible socket.io cdn should be changed in session.html file
+Offical website:- https://socket.io/
+
 
 To run the server
 
